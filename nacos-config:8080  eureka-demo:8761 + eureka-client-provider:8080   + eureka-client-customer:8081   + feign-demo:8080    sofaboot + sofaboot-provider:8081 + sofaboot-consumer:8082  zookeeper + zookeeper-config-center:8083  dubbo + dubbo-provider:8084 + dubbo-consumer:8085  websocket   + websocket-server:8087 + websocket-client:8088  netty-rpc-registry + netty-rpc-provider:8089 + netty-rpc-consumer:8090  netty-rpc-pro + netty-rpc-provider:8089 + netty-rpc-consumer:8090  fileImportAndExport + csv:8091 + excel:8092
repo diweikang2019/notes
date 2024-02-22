@@ -1,8 +1,8 @@
-nacos-config:8080
+
 
 eureka-demo:8761
-+ eureka-client-provider:8080  
-+ eureka-client-customer:8081  
++ eureka-client-provider:8081
++ eureka-client-customer:8082
 + feign-demo:8080  
 
 sofaboot
@@ -15,6 +15,8 @@ zookeeper
 dubbo
 + dubbo-provider:8084
 + dubbo-consumer:8085
+
+nacos-config:8086
 
 websocket  
 + websocket-server:8087
